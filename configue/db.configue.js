@@ -2,5 +2,5 @@
 
 module.exports = {
     db_name:"ecommerce",
-    db_url:"mongodb://localhost/ecommerce" 
+    db_url:"mongodb://localhost:8000/ecommerce" 
 }
