@@ -6,8 +6,8 @@ const user_model = require('./models/user.model')
 const bcrypt = require('bcryptjs')
 const app = express()
 
-app.use(express.json())
-
+app.use(express.json()) //middleware from JSON to JS object
+ 
 mongoose.connect(db_configue.db_url)
 const db = mongoose.connection
 
