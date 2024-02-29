@@ -47,6 +47,7 @@ async function init(){
     }
 } 
 require('./routes/auth.routes')(app); //pass app object to auth routes
+require('./routes/category.routes')(app); //pass app object to auth routes
 
 app.listen(server_configue.port,()=>{
     console.log("Server is starting at " , server_configue.port)
